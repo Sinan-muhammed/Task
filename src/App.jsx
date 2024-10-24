@@ -3,15 +3,18 @@ import Top from "./Top";
 
 export default function App() {
   return (
-    <> 
+    <>
       <div>
-        <div >
-        <Top />
+        {/* Top Component  */}
+        <div>
+          <Top />
         </div>
+
+        {/* Bottom Component */}
         <div className="pb-[85px]">
-        <Bottom/>
+          <Bottom />
         </div>
       </div>
     </>
-  )
+  );
 }
