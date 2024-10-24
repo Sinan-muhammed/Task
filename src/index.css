@@ -4,3 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.Bottom{
+    background-image: url(../public/bottombg.png);
+}
+.Coupon{
+    background-image: url(../public/Coupon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

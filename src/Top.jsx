@@ -6,9 +6,9 @@ import Features from './cards/Features'
 
 const Top = () => {
   return (
-    <div className='md:flex items-center justify-center md:pb-[260px]'>
-      <div className='h-full  md:w-[50%] flex md:p-[100px] p-[20px] gap-[12px] md:gap-[40px] flex-col'>
-        <div className='md:pt-[200px] pt-[100px] '>
+    <div className='md:flex items-center justify-center '>
+      <div className='h-full  md:w-[50%] flex md:p-[50px] md:pl-[150px] p-[20px] gap-[12px] md:gap-[40px] flex-col'>
+        <div className=' pt-[50px] '>
            <div className=' flex gap-3'>
             <h1 className='md:text-[40px] text-[25px] font-bold font-poppins'>We make it the way </h1>
             <img src={Arrow} alt="" className='md:flex hidden' />

@@ -8,7 +8,7 @@ export default function App() {
         <div >
         <Top />
         </div>
-        <div>
+        <div className="pb-[85px]">
         <Bottom/>
         </div>
       </div>
